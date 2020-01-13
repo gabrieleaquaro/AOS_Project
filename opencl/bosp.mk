@@ -1,0 +1,1 @@
+-include samples/opencl/hellocl/bosp.mk

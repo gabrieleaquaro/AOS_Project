@@ -1,0 +1,2 @@
+-include opencl/bosp.mk
+-include opencv/bosp.mk
