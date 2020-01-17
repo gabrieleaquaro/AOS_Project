@@ -6,7 +6,7 @@
 comment "AEM OpenCL Applications"
 
 config BOSP_SAMPLES_OPENCL
-  bool
+  bool "OpenCL"
   default n
 
 source "samples/opencl/Kconfig"
@@ -18,7 +18,7 @@ source "samples/opencl/Kconfig"
 comment "AEM OpenCV Applications"
 
 config BOSP_SAMPLES_OPENCV
-  bool
+  bool OpenCV
   default n
 
 source "samples/opencv/Kconfig"
