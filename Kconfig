@@ -3,23 +3,19 @@
 #     OpenCL sample applications
 ################################################################################
 
-comment "AEM OpenCL Applications"
-
-config BOSP_SAMPLES_OPENCL
-  bool "OpenCL"
-  default n
+menu "OpenCL"
 
 source "samples/opencl/Kconfig"
+
+endmenu
 
 ################################################################################
 #     OpenCV sample applications
 ################################################################################
 
-comment "AEM OpenCV Applications"
-
-config BOSP_SAMPLES_OPENCV
-  bool OpenCV
-  default n
+menu "OpenCV"
 
 source "samples/opencv/Kconfig"
+
+endmenu
 
