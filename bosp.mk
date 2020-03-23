@@ -1,2 +1,3 @@
+-include cpp/bosp.mk
 -include opencl/bosp.mk
 -include opencv/bosp.mk

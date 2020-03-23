@@ -1,4 +1,26 @@
 
+config BOSP_SAMPLES_CPP
+bool
+default n
+
+config BOSP_SAMPLES_OPENCL
+bool
+default n
+
+config BOSP_SAMPLES_OPENCV
+bool
+default n
+
+################################################################################
+#     C++ sample applications
+################################################################################
+
+menu "C++"
+
+source "samples/cpp/Kconfig"
+
+endmenu
+
 ################################################################################
 #     OpenCL sample applications
 ################################################################################
