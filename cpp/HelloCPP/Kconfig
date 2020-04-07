@@ -1,0 +1,12 @@
+
+config SAMPLES_CPP_HELLOCPP
+  bool "HelloCPP"
+  default n
+  select BOSP_SAMPLES_CPP
+  ---help---
+  Build the HelloCPP application.
+  
+  Insert here a description of this application.
+
+  If unsure, say No to this option.
+
