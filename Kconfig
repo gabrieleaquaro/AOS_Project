@@ -11,6 +11,10 @@ config BOSP_SAMPLES_OPENCV
 bool
 default n
 
+config BOSP_SAMPLES_PYTHON
+bool
+default n
+
 ################################################################################
 #     C++ sample applications
 ################################################################################
@@ -38,6 +42,16 @@ endmenu
 menu "OpenCV"
 
 source "samples/opencv/Kconfig"
+
+endmenu
+
+################################################################################
+#     Python sample applications
+################################################################################
+
+menu "Python"
+
+source "samples/python/Kconfig"
 
 endmenu
 
