@@ -1,0 +1,8 @@
+
+config SAMPLES_PYTHON_PYSAMPLE
+  bool "PySample"
+  default n
+  select BOSP_SAMPLES_PYTHON
+  select BBQUE_BINDINGS_PYTHON
+  ---help---
+  Build the PySample Python-AEM application. 
