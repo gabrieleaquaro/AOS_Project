@@ -10,7 +10,7 @@ clean_samples_cpp: clean_samples_cpp_hellocpp
 
 MODULE_SAMPLES_CPP_HELLOCPP=samples/cpp/HelloCPP
 
-samples_cpp_hellocpp: external
+samples_cpp_hellocpp:
 	@echo
 	@echo "==== Building HelloCPP ($(BUILD_TYPE)) ===="
 	@echo " Using GCC    : $(CC)"
