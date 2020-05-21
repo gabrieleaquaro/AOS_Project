@@ -1,17 +1,17 @@
 
 ifdef CONFIG_BOSP_SAMPLES_CPP
 $(info [ BOSP Samples: including CPP...] )
--include cpp/bosp.mk
+-include samples/cpp/bosp.mk
 endif
 
 ifdef CONFIG_BOSP_SAMPLES_OPENCL
 $(info [ BOSP Samples: including OpenCL... ])
--include opencl/bosp.mk
+-include samples/opencl/bosp.mk
 endif
 
 ifdef CONFIG_BOSP_SAMPLES_OPENCV
 $(info [ BOSP Samples: including OpenCV... ])
--include opencv/bosp.mk
+-include samples/opencv/bosp.mk
 endif
 
 ifdef CONFIG_BOSP_SAMPLES_PYTHON
