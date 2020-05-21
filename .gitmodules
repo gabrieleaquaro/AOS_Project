@@ -4,3 +4,6 @@
 [submodule "opencl/hellocl"]
 	path = opencl/hellocl
 	url = https://jumanix@bitbucket.org/jumanix/hellocl.git
+[submodule "opencv/facedetect"]
+	path = opencv/facedetect
+	url = https://bitbucket.org/jumanix/bosp-samples-ocv-facedetect.git

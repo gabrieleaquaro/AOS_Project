@@ -1,1 +1,2 @@
 source samples/opencv/background_learning/Kconfig
+source samples/opencv/facedetect/Kconfig
