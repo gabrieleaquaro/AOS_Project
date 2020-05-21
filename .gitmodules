@@ -1,9 +1,9 @@
 [submodule "opencv/background_learning"]
 	path = opencv/background_learning
-	url = https://jumanix@bitbucket.org/jumanix/contrib-user-ocv_backgroundlearn.git
+	url = https://bitbucket.org/jumanix/contrib-user-ocv_backgroundlearn.git
 [submodule "opencl/hellocl"]
 	path = opencl/hellocl
-	url = https://jumanix@bitbucket.org/jumanix/hellocl.git
+	url = https://bitbucket.org/jumanix/hellocl.git
 [submodule "opencv/facedetect"]
 	path = opencv/facedetect
 	url = https://bitbucket.org/jumanix/bosp-samples-ocv-facedetect.git
