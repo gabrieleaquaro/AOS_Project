@@ -1,1 +1,2 @@
 source samples/opencl/hellocl/Kconfig
+source samples/opencl/heartwall/Kconfig

@@ -7,3 +7,6 @@
 [submodule "opencv/facedetect"]
 	path = opencv/facedetect
 	url = https://bitbucket.org/jumanix/bosp-samples-ocv-facedetect.git
+[submodule "opencl/heartwall"]
+	path = opencl/heartwall
+	url = https://bitbucket.org/jumanix/contrib-heartwallocl.git
