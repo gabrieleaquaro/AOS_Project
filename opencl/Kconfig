@@ -1,3 +1,4 @@
-source samples/opencl/hellocl/Kconfig
+source samples/opencl/backprop/Kconfig
 source samples/opencl/heartwall/Kconfig
+source samples/opencl/hellocl/Kconfig
 source samples/opencl/hotspot/Kconfig

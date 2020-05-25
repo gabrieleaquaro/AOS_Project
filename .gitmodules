@@ -13,3 +13,6 @@
 [submodule "opencl/hotspot"]
 	path = opencl/hotspot
 	url = https://bitbucket.org/jumanix/bosp-samples-opencl-hotspot.git
+[submodule "opencl/backprop"]
+	path = opencl/backprop
+	url = https://bitbucket.org/jumanix/bosp-samples-opencl-backprop.git
