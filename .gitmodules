@@ -1,6 +1,6 @@
 [submodule "opencv/background_learning"]
 	path = opencv/background_learning
-	url = https://bitbucket.org/jumanix/contrib-user-ocv_backgroundlearn.git
+	url = https://bitbucket.org/jumanix/samples-ocv-backgroundlearn.git
 [submodule "opencl/hellocl"]
 	path = opencl/hellocl
 	url = https://bitbucket.org/jumanix/hellocl.git
@@ -9,7 +9,7 @@
 	url = https://bitbucket.org/jumanix/bosp-samples-ocv-facedetect.git
 [submodule "opencl/heartwall"]
 	path = opencl/heartwall
-	url = https://bitbucket.org/jumanix/contrib-heartwallocl.git
+	url = https://bitbucket.org/jumanix/bosp-samples-opencl-heartwall.git
 [submodule "opencl/hotspot"]
 	path = opencl/hotspot
-	url = https://bitbucket.org/jumanix/contrib-user-hotspot.git
+	url = https://bitbucket.org/jumanix/bosp-samples-opencl-hotspot.git
