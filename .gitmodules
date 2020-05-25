@@ -10,3 +10,6 @@
 [submodule "opencl/heartwall"]
 	path = opencl/heartwall
 	url = https://bitbucket.org/jumanix/contrib-heartwallocl.git
+[submodule "opencl/hotspot"]
+	path = opencl/hotspot
+	url = https://bitbucket.org/jumanix/contrib-user-hotspot.git
