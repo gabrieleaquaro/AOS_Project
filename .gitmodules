@@ -1,6 +1,6 @@
 [submodule "opencv/background_learning"]
 	path = opencv/background_learning
-	url = https://bitbucket.org/jumanix/samples-ocv-backgroundlearn.git
+	url = https://bitbucket.org/jumanix/bosp-samples-ocv-backgroundlearn.git
 [submodule "opencl/hellocl"]
 	path = opencl/hellocl
 	url = https://bitbucket.org/jumanix/hellocl.git
