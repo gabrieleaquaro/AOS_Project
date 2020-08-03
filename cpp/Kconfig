@@ -1,2 +1,3 @@
 # Selection of generic CPP sample applications
 source samples/cpp/HelloCPP/Kconfig
+source samples/cpp/FFT/Kconfig

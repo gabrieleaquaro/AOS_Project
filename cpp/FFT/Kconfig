@@ -1,0 +1,12 @@
+
+config SAMPLES_CPP_FFT
+  bool "FFT"
+  default n
+  select BOSP_SAMPLES_CPP
+  ---help---
+  Build the FFT application.
+  
+  Insert here a description of this application.
+
+  If unsure, say No to this option.
+
