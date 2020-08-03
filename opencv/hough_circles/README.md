@@ -14,7 +14,7 @@ If a custom build of OpenCV has been performed, you can suggest the
 installation path to the BOSP build system by setting the `OpenCV_DIR` variable,
 as it follows:
 
-> `export OpenCV_DIR=/opt/opencv/lib/cmake/opencv4/`
+`export OpenCV_DIR=/opt/opencv/lib/cmake/opencv4/`
 
 Then the sample compilation must be selected through the BOSP configuration
 menu, before actually launching the build process.
@@ -53,4 +53,7 @@ the value, the lower the minimum distance between detected centers!
 13. **cps** *goal*, **-s**: to set the cycles per second goal for the execution of the
 program, by default the program uses the full assigned resources.
 
+## Example ##
+
+`./out/usr/bin/houghcircles -j 100 -i 30 -a 100 -f hc_logos.jpg -t 4`
 
