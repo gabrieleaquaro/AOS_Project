@@ -15,7 +15,7 @@ samples_opencv_houghcircles: external
 	@echo "==== Building HoughCircles ($(BUILD_TYPE)) ===="
 	@echo " Using GCC    : $(CC)"
 	@echo " Target flags : $(TARGET_FLAGS)"
-	@echo " Sysroot      : $(PLATFORM_SYSROOT)"
+	@echo " Sysroot      : $(BOSP_SYSROOT)"
 	@echo " BOSP Options : $(CMAKE_COMMON_OPTIONS)"
 	@[ -d $(MODULE_SAMPLES_OPENCV_HOUGHCIRCLES)/build/$(BUILD_TYPE) ] || \
 		mkdir -p $(MODULE_SAMPLES_OPENCV_HOUGHCIRCLES)/build/$(BUILD_TYPE) || \
@@ -32,9 +32,6 @@ samples_opencv_houghcircles: external
 clean_samples_opencv_houghcircles:
 	@echo
 	@echo "==== Clean-up HoughCircles Application ===="
-	@[ ! -f $(BUILD_DIR)/usr/bin/houghcircles ] || \
-		rm -f $(BUILD_DIR)/etc/bbque/recipes/HoughCircles*; \
-		rm -f $(BUILD_DIR)/usr/bin/houghcircles*
 	@rm -rf $(MODULE_SAMPLES_OPENCV_HOUGHCIRCLES)/build
 	@echo
 

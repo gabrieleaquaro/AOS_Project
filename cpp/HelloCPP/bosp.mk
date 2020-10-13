@@ -15,7 +15,7 @@ samples_cpp_hellocpp:
 	@echo "==== Building HelloCPP ($(BUILD_TYPE)) ===="
 	@echo " Using GCC    : $(CC)"
 	@echo " Target flags : $(TARGET_FLAGS)"
-	@echo " Sysroot      : $(PLATFORM_SYSROOT)"
+	@echo " Sysroot      : $(BOSP_SYSROOT)"
 	@echo " BOSP Options : $(CMAKE_COMMON_OPTIONS)"
 	@[ -d $(MODULE_SAMPLES_CPP_HELLOCPP)/build/$(BUILD_TYPE) ] || \
 		mkdir -p $(MODULE_SAMPLES_CPP_HELLOCPP)/build/$(BUILD_TYPE) || \
@@ -32,9 +32,6 @@ samples_cpp_hellocpp:
 clean_samples_cpp_hellocpp:
 	@echo
 	@echo "==== Clean-up HelloCPP Application ===="
-	@[ ! -f $(BUILD_DIR)/usr/bin/hellocpp ] || \
-		rm -f $(BUILD_DIR)/etc/bbque/recipes/HelloCPP*; \
-		rm -f $(BUILD_DIR)/usr/bin/hellocpp*
 	@rm -rf $(MODULE_SAMPLES_CPP_HELLOCPP)/build
 	@echo
 

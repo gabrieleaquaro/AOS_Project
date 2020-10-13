@@ -15,7 +15,7 @@ samples_python_pysample: external
 	@echo "==== Building PySample ($(BUILD_TYPE)) ===="
 	@echo " Using GCC    : $(CC)"
 	@echo " Target flags : $(TARGET_FLAGS)"
-	@echo " Sysroot      : $(PLATFORM_SYSROOT)"
+	@echo " Sysroot      : $(BOSP_SYSROOT)"
 	@echo " BOSP Options : $(CMAKE_COMMON_OPTIONS)"
 	@[ -d $(MODULE_SAMPLES_PYTHON_PYSAMPLE)/build/$(BUILD_TYPE) ] || \
 		mkdir -p $(MODULE_SAMPLES_PYTHON_PYSAMPLE)/build/$(BUILD_TYPE) || \
@@ -32,9 +32,6 @@ samples_python_pysample: external
 clean_samples_python_pysample:
 	@echo
 	@echo "==== Clean-up PySample Application ===="
-	@[ ! -f $(BUILD_DIR)/usr/bin/pysample ] || \
-		rm -f $(BUILD_DIR)/etc/bbque/recipes/PySample*; \
-		rm -f $(BUILD_DIR)/usr/bin/pysample*
 	@rm -rf $(MODULE_SAMPLES_PYTHON_PYSAMPLE)/build
 	@echo
 

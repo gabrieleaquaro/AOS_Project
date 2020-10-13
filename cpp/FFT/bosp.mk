@@ -15,7 +15,7 @@ samples_cpp_fft: external
 	@echo "==== Building FFT ($(BUILD_TYPE)) ===="
 	@echo " Using GCC    : $(CC)"
 	@echo " Target flags : $(TARGET_FLAGS)"
-	@echo " Sysroot      : $(PLATFORM_SYSROOT)"
+	@echo " Sysroot      : $(BOSP_SYSROOT)"
 	@echo " BOSP Options : $(CMAKE_COMMON_OPTIONS)"
 	@[ -d $(MODULE_SAMPLES_CPP_FFT)/build/$(BUILD_TYPE) ] || \
 		mkdir -p $(MODULE_SAMPLES_CPP_FFT)/build/$(BUILD_TYPE) || \
@@ -32,9 +32,6 @@ samples_cpp_fft: external
 clean_samples_cpp_fft:
 	@echo
 	@echo "==== Clean-up FFT Application ===="
-	@[ ! -f $(BUILD_DIR)/usr/bin/fft ] || \
-		rm -f $(BUILD_DIR)/etc/bbque/recipes/FFT*; \
-		rm -f $(BUILD_DIR)/usr/bin/fft*
 	@rm -rf $(MODULE_SAMPLES_CPP_FFT)/build
 	@echo
 
