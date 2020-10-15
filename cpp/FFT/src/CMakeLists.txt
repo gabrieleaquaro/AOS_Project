@@ -4,9 +4,8 @@
 
 cmake_minimum_required(VERSION 3.0)
 
-#----- Check for the required RTLib library
+set (BOSP_SYSROOT ${CMAKE_INSTALL_PREFIX})
 find_package(BbqRTLib REQUIRED)
-
 
 #----- Add "fft" target application
 set(FFT_SRC version FFT_exc FFT_main)
