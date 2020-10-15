@@ -2,6 +2,8 @@
 # The AEM PySample Python Application
 ################################################################################
 
+cmake_minimum_required (VERSION 3.0 FATAL_ERROR)
+
 # The name of this project.
 project (PySample)
 

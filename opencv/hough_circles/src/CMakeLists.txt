@@ -4,9 +4,9 @@
 
 cmake_minimum_required(VERSION 3.0)
 
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
+set (BOSP_SYSROOT ${CMAKE_INSTALL_PREFIX})
 
-#----- Check for the required RTLib library
 find_package(BbqRTLib REQUIRED)
 
 #----- Check for the required OpenCV library
