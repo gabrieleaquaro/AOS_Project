@@ -5,6 +5,10 @@ config BOSP_SAMPLES_CPP
 bool
 default n
 
+config BOSP_SAMPLES_FORTRAN
+bool
+default n
+
 config BOSP_SAMPLES_OPENCL
 bool
 default n
@@ -24,6 +28,16 @@ default n
 menu "C++"
 
 source "samples/cpp/Kconfig"
+
+endmenu
+
+################################################################################
+#     Fortran sample applications
+################################################################################
+
+menu "Fortran"
+
+source "samples/fortran/Kconfig"
 
 endmenu
 

@@ -4,6 +4,11 @@ $(info [ BOSP Samples: including CPP...] )
 -include samples/cpp/bosp.mk
 endif
 
+ifdef CONFIG_BOSP_SAMPLES_FORTRAN
+$(info [ BOSP Samples: including Fortran...] )
+-include samples/fortran/bosp.mk
+endif
+
 ifdef CONFIG_BOSP_SAMPLES_OPENCL
 $(info [ BOSP Samples: including OpenCL... ])
 -include samples/opencl/bosp.mk

@@ -16,3 +16,6 @@
 [submodule "opencl/backprop"]
 	path = opencl/backprop
 	url = https://bitbucket.org/jumanix/bosp-samples-opencl-backprop.git
+[submodule "fortran/HelloFortran"]
+	path = fortran/HelloFortran
+	url = https://bitbucket.org/jumanix/bosp-samples-fortran-hellofortran.git
