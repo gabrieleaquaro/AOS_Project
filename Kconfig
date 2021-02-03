@@ -1,4 +1,6 @@
 
+comment "Sample applications"
+
 config BOSP_SAMPLES_CPP
 bool
 default n
