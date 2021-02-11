@@ -1,3 +1,4 @@
 source samples/opencv/background_learning/Kconfig
 source samples/opencv/facedetect/Kconfig
 source samples/opencv/hough_circles/Kconfig
+source samples/opencv/edge_detector/Kconfig

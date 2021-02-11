@@ -1,0 +1,10 @@
+
+config SAMPLES_OPENCV_EDGEDETECTOR
+  bool "Canny Edge Detector"
+  default n
+  select BOSP_SAMPLES_OPENCV
+  ---help---
+  Build the Canny Edge Detector application.
+  
+  If unsure, say No to this option.
+
