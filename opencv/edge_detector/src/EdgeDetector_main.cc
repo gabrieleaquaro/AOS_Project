@@ -123,8 +123,8 @@ void ParseCommandLine(int argc, char *argv[]) {
 int main(int argc, char *argv[]) {
 
 	opts_desc.add_options()
-		("help,h", "print this help message")
-		("version,v", "print program version")
+		("help,h", "\nThis sample demonstrates Canny edge detection\n Call:\n EdgeDetector [image_name -- Default is fruits.jpg]\n")
+		("version,v", "1.0")
 
 		("conf,C", po::value<std::string>(&conf_file)->
 			default_value(conf_file),
